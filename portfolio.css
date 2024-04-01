@@ -1,0 +1,76 @@
+body {
+  font-family: "Quicksand", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.8;
+  color: rgba(0, 0, 0, 0.7); }
+  @media screen and (max-width: 992px) {
+    body {
+      font-size: 16px; } }
+
+
+ a {
+        color: #2c98f0;
+        -webkit-transition: 0.5s;
+        -o-transition: 0.5s;
+        transition: 0.5s; }
+        a:hover, a:active, a:focus {
+          color: #2c98f0;
+          outline: none;
+          text-decoration: none !important; }
+
+li{
+    list-style-type: none;
+  }
+          ul{
+  display: flex;
+  align-items: center;
+  
+  }
+  
+  ul li{
+    list-style-type: none;
+  margin-left: 40px;
+  
+  }
+  .what{
+    background-color: whitesmokes;
+   text-align: center; 
+   }
+   .skills-name{
+     display: flex;
+     gap:5px;
+   }
+   .skill-item{
+     padding: 10px;
+     box-shadow: 5px 10px rgb(209, 207, 207, 0.9);
+   }
+   .skill-name{
+     font-weight: 700;
+     font-size: 20px;
+   }
+   
+   .skill-description{
+     color:darkkhaki;
+   }
+   
+  .banner{
+    display: flex;
+    align-items: center;
+  }
+  .banner-description{
+  margin-left: 120px;
+  }
+.about{
+    text-align: center;
+}
+
+
+.about h3 {
+	font-size: 2.5em;
+	font-family: 'Arvo', serif;
+	text-transform: uppercase;
+	font-weight: 400;
+	color: #2a404e;
+}
+
